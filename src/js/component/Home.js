@@ -18,7 +18,7 @@ const Home = () => {
                     </button>
                 </li>
                 <li>
-                    <Link to={`/pokemon`}>Pokemon List</Link>
+                    <Link to="/pokemon/">Go to pokemon list (normal Link)</Link>
                 </li>
             </ul>
         </div>

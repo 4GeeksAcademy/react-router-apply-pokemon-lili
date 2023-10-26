@@ -5,7 +5,7 @@ import Pokemon from './Pokemon';
 
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import pokeImage from "../../img/International_Pokémon_logo.svg.png";
 
 const App = () => {
 	return (
@@ -17,7 +17,7 @@ const App = () => {
 				</Routes>
 			</BrowserRouter>
 			<p>
-				<img src={rigoImage} />
+				<img className="logo" src={pokeImage} />
 			</p>
 		</div>
 	);

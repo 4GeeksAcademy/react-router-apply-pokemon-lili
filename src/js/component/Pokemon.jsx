@@ -21,7 +21,7 @@ const Pokemon = () => {
                 {
                     !!characters &&
                     characters.results.map((character) => {
-                        return <li key={character.id}>{character.name} <Link to={`/details/${character.id}`}>See details</Link></li>
+                        return <li key={character.name}>{character.name} <Link to={`/details/${character.name}`}>See details</Link></li>
                     })
                 }
             </ul>
